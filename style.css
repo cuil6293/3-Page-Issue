@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;500&family=Tourney:ital,wght@1,300&family=VT323&display=swap');
+
+
+body {
+	margin: 0 px;
+	padding: 0 px;
+	background-color: #457ed9;
+	color: #fff;
+	font-family: "Hanken Grotesk";
+	font-weight: 500;
+	font-size: 20px;
+}
+
+
+html {
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav_container{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.nav{
+	font-weight: bolder;
+	font-size: 30px;
+	background: floralwhite;
+	text-decoration: none;
+	color: #457ed9;
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.nav:hover{
+	background: #000;
+	color: #fff;
+}
+
+.Head{
+	position: relative;
+	text-align: center;
+}
+
+.banner1{
+	width: 100%;
+	height: 350;
+	border-radius: 5px;
+}
+
+.header1{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 15vw;
+	font-weight: light;
+	font-style: italic;
+}
+
+.homeinfo{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	padding: 10px 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 5px;
+	font-size: 30px;
+}
+
+
+.head1-info{
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	font-size: 50px;
+}
+
+.info{
+	background-color: rgba(255, 255, 255, 0.6);
+	font-size: 25px;
+	border-radius: 10px;
+	text-align: center;
+	color: #000;
+	font-weight: normal;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.PH1{
+	padding-left: 20%;
+	padding-right: 20%;
+	width: 60%;
+}
+
+.PH2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.PH2-2{
+	width: 500px;
+	height: 450px;
+	object-fit: cover;
+}
